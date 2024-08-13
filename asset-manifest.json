@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TakeNoteAPP/static/css/main.7fca090b.css",
+    "main.js": "/TakeNoteAPP/static/js/main.b339ffc9.js",
+    "static/js/453.4040e399.chunk.js": "/TakeNoteAPP/static/js/453.4040e399.chunk.js",
+    "index.html": "/TakeNoteAPP/index.html",
+    "main.7fca090b.css.map": "/TakeNoteAPP/static/css/main.7fca090b.css.map",
+    "main.b339ffc9.js.map": "/TakeNoteAPP/static/js/main.b339ffc9.js.map",
+    "453.4040e399.chunk.js.map": "/TakeNoteAPP/static/js/453.4040e399.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fca090b.css",
+    "static/js/main.b339ffc9.js"
+  ]
+}
