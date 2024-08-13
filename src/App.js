@@ -7,7 +7,7 @@ import Note from './Component/Note';
 function App() {
   return (
   <>
-   <Note/>
+   <TakeNoteAPP/>
   </>
   );
 }
