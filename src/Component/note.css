@@ -1,38 +1,81 @@
-
+/* General Body Styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
-}
-
-div {
-  margin: 10px;
-  padding: 10px;
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-h1 {
-  text-align: center;
-}
-
-form {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+}
+
+/* Container for the Note App */
+.note-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Title Styling */
+h1 {
+  text-align: center;
+  color: #333;
   margin-bottom: 20px;
 }
 
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Input Styling */
 input {
-  margin-right: 10px;
-  padding: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
+input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+}
+
+/* Button Styling */
 button {
-  padding: 5px 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
+button:hover {
+  background-color: #0056b3;
+}
 
+/* Notes List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
 
+li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}

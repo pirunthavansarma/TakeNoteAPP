@@ -3,13 +3,11 @@ import React, { useState } from 'react';
 const NoteForm = ({ addNote }) => {
   const [note, setNote] = useState('');
 
-
-  //event
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!note) return;
-    addNote(note);
-    setNote('');
+    if (!note) return;  // Prevent adding an empty note
+    addNote(note);  // Call the addNote function passed as a prop
+    setNote('');  // Clear the input field after submission
   };
 
   return (
@@ -26,3 +24,6 @@ const NoteForm = ({ addNote }) => {
 };
 
 export default NoteForm;
+
+
+

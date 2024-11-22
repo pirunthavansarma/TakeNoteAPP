@@ -1,7 +1,7 @@
 
 import "./Component/note.css";
 import React from 'react';
-import Note from './Component/Note';
+import TakeNoteAPP from './Component/NoteForm';
 // gfg
 
 function App() {
